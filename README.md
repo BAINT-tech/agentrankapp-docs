@@ -1,48 +1,41 @@
-// === Project Structure === // Root folder: agentrankapp-docs/
+# Website
 
-// File: package.json { "name": "agentrankapp-docs", "version": "1.0.0", "private": true, "scripts": { "start": "docusaurus start", "build": "docusaurus build", "deploy": "docusaurus deploy", "swizzle": "docusaurus swizzle" }, "dependencies": { "@docusaurus/core": "^3.2.1", "@docusaurus/preset-classic": "^3.2.1", "clsx": "^1.2.1", "react": "^18.2.0", "react-dom": "^18.2.0" } }
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-// File: docusaurus.config.js const config = { title: 'AgentRank Docs', tagline: 'Build. Launch. Rank.', url: 'https://agentrankapp.vercel.app', baseUrl: '/', favicon: 'img/favicon.ico', organizationName: 'BAINT-tech', projectName: 'agentrankapp-docs',
+## Installation
 
-presets: [ [ 'classic', { docs: { sidebarPath: require.resolve('./sidebars.js'), }, theme: { customCss: require.resolve('./src/css/custom.css'), }, }, ], ],
+```bash
+yarn
+```
 
-themeConfig: { navbar: { title: 'AgentRank', logo: { alt: 'AgentRank Logo', src: 'img/agentrank-logo.png', }, items: [ { to: '/docs/intro', label: 'Docs', position: 'left' }, { href: 'https://github.com/BAINT-tech/agentrankapp-docs', label: 'GitHub', position: 'right', }, ], }, footer: { style: 'dark', copyright: Built by AgentRank © ${new Date().getFullYear()}, }, }, }; module.exports = config;
+## Local Development
 
-// File: sidebars.js module.exports = { tutorialSidebar: [ 'intro', { type: 'category', label: 'Getting Started', items: [], }, ], };
+```bash
+yarn start
+```
 
-// File: vercel.json { "buildCommand": "npm install && npm run build", "outputDirectory": "build", "framework": "other" }
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-// File: docs/intro.md
+## Build
 
-Welcome to AgentRank
+```bash
+yarn build
+```
 
-AgentRank is the AI Agent Explorer and Launcher for Web2 & Web3 ecosystems.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-What You Can Do
+## Deployment
 
-🚀 Launch and rank AI agents
+Using SSH:
 
-🛡️ Earn badges and reputation
+```bash
+USE_SSH=true yarn deploy
+```
 
-📊 Track performance and analytics
+Not using SSH:
 
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
 
-> Everything starts here.
-
-
-
-// File: src/css/custom.css :root { --ifm-color-primary: #0e7f47; --ifm-navbar-background-color: #0d1117; --ifm-navbar-link-color: #ffffff; --ifm-footer-background-color: #0d1117; --ifm-font-family-base: 'Inter', sans-serif; }
-
-// File: README.md
-
-AgentRank Docs
-
-Official documentation for AgentRank — the platform to launch and rank AI agents.
-
-🚀 Getting Started
-
-npm install
-npm run start
-
-Visit: https://agentrankapp.vercel.app
-
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

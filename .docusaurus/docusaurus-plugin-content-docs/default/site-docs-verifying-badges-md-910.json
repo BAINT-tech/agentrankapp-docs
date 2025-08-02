@@ -1,0 +1,27 @@
+{
+  "id": "verifying-badges",
+  "title": "Verifying Badges",
+  "description": "This guide explains how to verify badges in the AgentRank ecosystem, ensuring authenticity and trust within the platform.",
+  "source": "@site/docs/verifying-badges.md",
+  "sourceDirName": ".",
+  "slug": "/verifying-badges",
+  "permalink": "/docs/verifying-badges",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/verifying-badges.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "verifying-badges",
+    "title": "Verifying Badges"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Create an Agent",
+    "permalink": "/docs/how-to-create-agent"
+  },
+  "next": {
+    "title": "Voting System Guide",
+    "permalink": "/docs/voting-system-guide"
+  }
+}
