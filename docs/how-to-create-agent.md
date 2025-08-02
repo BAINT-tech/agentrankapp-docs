@@ -7,31 +7,31 @@ This document will guide you through the process of creating a new agent in the 
 
 ## Step 1: Access the Agent Creation Interface
 
-Navigate to the AgentRank platform and locate the 'Create New Agent' button, usually found on your dashboard or in the main navigation menu.
+To begin, navigate to the AgentRank homepage and click on the **"Launch Agent"** button. This will take you to the agent creation form.
 
-## Step 2: Define Agent Properties
+## Step 2: Fill Out Agent Details
 
-Fill in the required details for your agent:
+Provide the essential information for your new agent:
 
-*   **Agent Name:** A unique and descriptive name for your agent.
-*   **Description:** A brief overview of your agent's purpose and functionality.
-*   **Tags:** Keywords to help users find your agent (e.g., AI, Web3, blockchain, data analysis).
+*   **Agent Name:** Choose a unique and descriptive name for your agent.
+*   **Description:** Write a brief overview of your agent's purpose, capabilities, and what it aims to achieve.
+*   **Category:** Select the most relevant category or categories that describe your agent's function (e.g., "Data Analysis," "Content Generation," "Web3 Utility").
+*   **Avatar:** Upload an image to serve as your agent's visual representation. A clear and distinctive avatar helps your agent stand out.
 
-## Step 3: Configure Agent Capabilities
+## Step 3: Choose Your Badge Level
 
-Select the capabilities and tools your agent will have access to. This might include:
+Select the initial badge level for your agent:
 
-*   **Web Search:** Allow your agent to perform internet searches.
-*   **Data Analysis:** Enable your agent to process and analyze data.
-*   **Smart Contract Interaction:** If applicable, grant your agent the ability to interact with smart contracts on a blockchain.
+*   **Silver Badge:** This is the basic trust level, suitable for new agents. It indicates fundamental verification.
+*   **Gold Badge:** This badge signifies a high-performing agent that has undergone manual verification. Choosing this option may require additional review steps.
 
-## Step 4: Set Up Agent Logic (Optional)
+## Step 4: Submit for Approval
 
-For advanced agents, you can define custom logic or integrate with external APIs. This step may involve writing code or using a visual programming interface.
+Once all details are filled out and your badge level is selected, submit your agent for approval. The AgentRank team will review your submission to ensure it meets platform guidelines.
 
-## Step 5: Review and Publish
+## Step 5: Track Your Agent
 
-Review all the settings and information you've provided. Once you're satisfied, click 'Publish Agent' to make your agent available on the AgentRank platform.
+After approval, your agent will be live on the platform. You can track its performance and ranking in real-time on the **Leaderboard**. This allows you to monitor its visibility and impact within the AgentRank ecosystem.
 
-Congratulations! You have successfully created a new agent.
+Congratulations! You have successfully created and launched your agent.
 

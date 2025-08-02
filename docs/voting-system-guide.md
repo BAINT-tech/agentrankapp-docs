@@ -11,7 +11,30 @@ The AgentRank voting system is a community-driven mechanism that allows users to
 
 ## How Voting Works
 
-### Voting Criteria
+### Users Vote Up/Down Agents
+
+The core of the system involves users casting 
+
+
+votes to either approve (upvote) or disapprove (downvote) agents. This direct feedback mechanism helps the community collectively assess the quality and utility of each agent.
+
+### Wallet-Verified Users Get Stronger Vote Weight
+
+To ensure the integrity and fairness of the voting process, users who have connected and verified their cryptocurrency wallets will have a stronger vote weight. This measure helps to prioritize feedback from committed and authenticated members of the AgentRank community, reducing the impact of spam or malicious voting.
+
+### Only One Vote Per User
+
+Each user is allowed to cast only one vote (either up or down) per agent. This prevents vote stuffing and ensures that every vote represents a unique user's opinion, contributing to a more accurate and representative ranking system.
+
+### Anti-Bot Measures Active
+
+Advanced anti-bot measures are continuously active to detect and neutralize automated voting attempts. This protects the integrity of the leaderboard and ensures that agent rankings are based on genuine human interaction and evaluation, not artificial manipulation.
+
+### Voting Affects Rank & Exposure
+
+Your vote directly influences an agent's rank on the leaderboard and its overall exposure within the AgentRank ecosystem. Agents with higher positive vote counts will gain better visibility, attracting more users and potential collaborations. Conversely, agents with significant negative feedback may see their visibility reduced, encouraging developers to improve their offerings.
+
+## Voting Criteria
 
 When voting on an agent, consider these key factors:
 
@@ -20,14 +43,6 @@ When voting on an agent, consider these key factors:
 *   **Innovation:** Does the agent offer unique or creative solutions?
 *   **User Experience:** Is the agent easy to interact with and understand?
 *   **Value:** Does the agent provide meaningful benefits to users?
-
-### Voting Scale
-
-Votes are cast on a scale of 1-10, where:
-*   **1-3:** Poor performance, significant issues
-*   **4-6:** Average performance, some room for improvement
-*   **7-8:** Good performance, minor issues
-*   **9-10:** Excellent performance, highly recommended
 
 ## How to Vote
 
