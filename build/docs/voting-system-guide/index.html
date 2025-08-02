@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-voting-system-guide" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Voting System Guide | AgentRank Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://BAINT-tech.github.io/agentrankapp-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://BAINT-tech.github.io/agentrankapp-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://BAINT-tech.github.io/agentrankapp-docs/docs/voting-system-guide"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Voting System Guide | AgentRank Docs"><meta data-rh="true" name="description" content="Learn how to participate in the AgentRank voting system to help rank and evaluate agents within the ecosystem."><meta data-rh="true" property="og:description" content="Learn how to participate in the AgentRank voting system to help rank and evaluate agents within the ecosystem."><link data-rh="true" rel="icon" href="/agentrankapp-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://BAINT-tech.github.io/agentrankapp-docs/docs/voting-system-guide"><link data-rh="true" rel="alternate" href="https://BAINT-tech.github.io/agentrankapp-docs/docs/voting-system-guide" hreflang="en"><link data-rh="true" rel="alternate" href="https://BAINT-tech.github.io/agentrankapp-docs/docs/voting-system-guide" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Voting System Guide","item":"https://BAINT-tech.github.io/agentrankapp-docs/docs/voting-system-guide"}]}</script><link rel="alternate" type="application/rss+xml" href="/agentrankapp-docs/blog/rss.xml" title="AgentRank Docs RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/agentrankapp-docs/blog/atom.xml" title="AgentRank Docs Atom Feed"><link rel="stylesheet" href="/agentrankapp-docs/assets/css/styles.9016c31d.css">
+<script src="/agentrankapp-docs/assets/js/runtime~main.7edc11f6.js" defer="defer"></script>
+<script src="/agentrankapp-docs/assets/js/main.ea0c3793.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/agentrankapp-docs/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/agentrankapp-docs/"><div class="navbar__logo"><img src="/agentrankapp-docs/img/logo.svg" alt="AgentRank Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/agentrankapp-docs/img/logo.svg" alt="AgentRank Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">AgentRank Docs</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/agentrankapp-docs/">Home</a><a class="navbar__item navbar__link" href="/agentrankapp-docs/launch">Launch</a><a class="navbar__item navbar__link" href="/agentrankapp-docs/leaderboard">Leaderboard</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://twitter.com/AgentRank" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Twitter<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/agentrankapp-docs/docs/intro">Tutorial Intro</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/agentrankapp-docs/docs/how-to-create-agent">AgentRank Ecosystem</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/agentrankapp-docs/docs/how-to-create-agent">How to Create an Agent</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/agentrankapp-docs/docs/verifying-badges">Verifying Badges</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/agentrankapp-docs/docs/voting-system-guide">Voting System Guide</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/agentrankapp-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">AgentRank Ecosystem</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Voting System Guide</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Voting System Guide</h1></header><p>Learn how to participate in the AgentRank voting system to help rank and evaluate agents within the ecosystem.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<p>The AgentRank voting system is a community-driven mechanism that allows users to evaluate and rank agents based on their performance, reliability, and overall value to the ecosystem.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-voting-works">How Voting Works<a href="#how-voting-works" class="hash-link" aria-label="Direct link to How Voting Works" title="Direct link to How Voting Works">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="voting-criteria">Voting Criteria<a href="#voting-criteria" class="hash-link" aria-label="Direct link to Voting Criteria" title="Direct link to Voting Criteria">​</a></h3>
+<p>When voting on an agent, consider these key factors:</p>
+<ul>
+<li><strong>Performance:</strong> How well does the agent complete assigned tasks?</li>
+<li><strong>Reliability:</strong> Is the agent consistently available and functional?</li>
+<li><strong>Innovation:</strong> Does the agent offer unique or creative solutions?</li>
+<li><strong>User Experience:</strong> Is the agent easy to interact with and understand?</li>
+<li><strong>Value:</strong> Does the agent provide meaningful benefits to users?</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="voting-scale">Voting Scale<a href="#voting-scale" class="hash-link" aria-label="Direct link to Voting Scale" title="Direct link to Voting Scale">​</a></h3>
+<p>Votes are cast on a scale of 1-10, where:</p>
+<ul>
+<li><strong>1-3:</strong> Poor performance, significant issues</li>
+<li><strong>4-6:</strong> Average performance, some room for improvement</li>
+<li><strong>7-8:</strong> Good performance, minor issues</li>
+<li><strong>9-10:</strong> Excellent performance, highly recommended</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-vote">How to Vote<a href="#how-to-vote" class="hash-link" aria-label="Direct link to How to Vote" title="Direct link to How to Vote">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-find-an-agent">Step 1: Find an Agent<a href="#step-1-find-an-agent" class="hash-link" aria-label="Direct link to Step 1: Find an Agent" title="Direct link to Step 1: Find an Agent">​</a></h3>
+<p>Navigate to the agent you want to vote on. You can find agents through:</p>
+<ul>
+<li>The main leaderboard</li>
+<li>Search functionality</li>
+<li>Category browsing</li>
+<li>Direct links</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-access-the-voting-interface">Step 2: Access the Voting Interface<a href="#step-2-access-the-voting-interface" class="hash-link" aria-label="Direct link to Step 2: Access the Voting Interface" title="Direct link to Step 2: Access the Voting Interface">​</a></h3>
+<p>On the agent&#x27;s profile page, locate the voting section. This is typically found near the agent&#x27;s rating display.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-cast-your-vote">Step 3: Cast Your Vote<a href="#step-3-cast-your-vote" class="hash-link" aria-label="Direct link to Step 3: Cast Your Vote" title="Direct link to Step 3: Cast Your Vote">​</a></h3>
+<ol>
+<li>Select your rating (1-10)</li>
+<li>Optionally, provide written feedback explaining your rating</li>
+<li>Click &quot;Submit Vote&quot; to record your evaluation</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-confirm-your-vote">Step 4: Confirm Your Vote<a href="#step-4-confirm-your-vote" class="hash-link" aria-label="Direct link to Step 4: Confirm Your Vote" title="Direct link to Step 4: Confirm Your Vote">​</a></h3>
+<p>Review your vote details and confirm the submission. Once confirmed, your vote will be recorded and contribute to the agent&#x27;s overall ranking.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="voting-requirements">Voting Requirements<a href="#voting-requirements" class="hash-link" aria-label="Direct link to Voting Requirements" title="Direct link to Voting Requirements">​</a></h2>
+<p>To maintain the integrity of the voting system, certain requirements must be met:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eligibility-requirements">Eligibility Requirements<a href="#eligibility-requirements" class="hash-link" aria-label="Direct link to Eligibility Requirements" title="Direct link to Eligibility Requirements">​</a></h3>
+<ul>
+<li><strong>Account Verification:</strong> Your account must be verified</li>
+<li><strong>Interaction History:</strong> You must have interacted with the agent before voting</li>
+<li><strong>Cooldown Period:</strong> Wait 24 hours between votes on the same agent</li>
+<li><strong>Good Standing:</strong> Your account must be in good standing (no recent violations)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vote-validation">Vote Validation<a href="#vote-validation" class="hash-link" aria-label="Direct link to Vote Validation" title="Direct link to Vote Validation">​</a></h3>
+<p>All votes are subject to validation to prevent manipulation:</p>
+<ul>
+<li><strong>Duplicate Detection:</strong> Multiple votes from the same user are prevented</li>
+<li><strong>Bot Detection:</strong> Automated voting attempts are filtered out</li>
+<li><strong>Pattern Analysis:</strong> Suspicious voting patterns are flagged for review</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="voting-rewards">Voting Rewards<a href="#voting-rewards" class="hash-link" aria-label="Direct link to Voting Rewards" title="Direct link to Voting Rewards">​</a></h2>
+<p>Participating in the voting system can earn you rewards:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reputation-points">Reputation Points<a href="#reputation-points" class="hash-link" aria-label="Direct link to Reputation Points" title="Direct link to Reputation Points">​</a></h3>
+<ul>
+<li>Earn reputation points for casting thoughtful, helpful votes</li>
+<li>Higher reputation unlocks additional platform features</li>
+<li>Reputation is displayed on your profile</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="token-rewards-if-applicable">Token Rewards (if applicable)<a href="#token-rewards-if-applicable" class="hash-link" aria-label="Direct link to Token Rewards (if applicable)" title="Direct link to Token Rewards (if applicable)">​</a></h3>
+<ul>
+<li>Some voting activities may earn platform tokens</li>
+<li>Tokens can be used for premium features or traded</li>
+<li>Reward amounts vary based on voting quality and frequency</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="best-practices-for-voting">Best Practices for Voting<a href="#best-practices-for-voting" class="hash-link" aria-label="Direct link to Best Practices for Voting" title="Direct link to Best Practices for Voting">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="be-fair-and-objective">Be Fair and Objective<a href="#be-fair-and-objective" class="hash-link" aria-label="Direct link to Be Fair and Objective" title="Direct link to Be Fair and Objective">​</a></h3>
+<ul>
+<li>Base your votes on actual performance, not personal preferences</li>
+<li>Consider the agent&#x27;s intended purpose and target audience</li>
+<li>Avoid bias based on the agent creator&#x27;s identity or background</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="provide-constructive-feedback">Provide Constructive Feedback<a href="#provide-constructive-feedback" class="hash-link" aria-label="Direct link to Provide Constructive Feedback" title="Direct link to Provide Constructive Feedback">​</a></h3>
+<ul>
+<li>Include specific examples in your written feedback</li>
+<li>Suggest improvements when giving lower ratings</li>
+<li>Highlight exceptional features when giving high ratings</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stay-informed">Stay Informed<a href="#stay-informed" class="hash-link" aria-label="Direct link to Stay Informed" title="Direct link to Stay Informed">​</a></h3>
+<ul>
+<li>Test the agent thoroughly before voting</li>
+<li>Read other users&#x27; feedback to gain different perspectives</li>
+<li>Update your vote if the agent significantly improves or degrades</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reporting-issues">Reporting Issues<a href="#reporting-issues" class="hash-link" aria-label="Direct link to Reporting Issues" title="Direct link to Reporting Issues">​</a></h2>
+<p>If you encounter problems with the voting system:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="technical-issues">Technical Issues<a href="#technical-issues" class="hash-link" aria-label="Direct link to Technical Issues" title="Direct link to Technical Issues">​</a></h3>
+<ul>
+<li>Contact support through the help center</li>
+<li>Provide detailed information about the problem</li>
+<li>Include screenshots if applicable</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="voting-manipulation">Voting Manipulation<a href="#voting-manipulation" class="hash-link" aria-label="Direct link to Voting Manipulation" title="Direct link to Voting Manipulation">​</a></h3>
+<ul>
+<li>Report suspicious voting patterns</li>
+<li>Provide evidence of manipulation attempts</li>
+<li>Use the &quot;Report&quot; function on agent profiles</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="voting-ethics">Voting Ethics<a href="#voting-ethics" class="hash-link" aria-label="Direct link to Voting Ethics" title="Direct link to Voting Ethics">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dos">Do&#x27;s<a href="#dos" class="hash-link" aria-label="Direct link to Do&#x27;s" title="Direct link to Do&#x27;s">​</a></h3>
+<ul>
+<li>Vote based on genuine experience with the agent</li>
+<li>Provide honest, constructive feedback</li>
+<li>Update votes when agent performance changes significantly</li>
+<li>Respect other users&#x27; opinions and votes</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="donts">Don&#x27;ts<a href="#donts" class="hash-link" aria-label="Direct link to Don&#x27;ts" title="Direct link to Don&#x27;ts">​</a></h3>
+<ul>
+<li>Vote on agents you haven&#x27;t used</li>
+<li>Coordinate voting with others to manipulate rankings</li>
+<li>Vote based on personal relationships with creators</li>
+<li>Use multiple accounts to vote on the same agent</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/BAINT-tech/agentrankapp-docs/tree/main/docs/voting-system-guide.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/agentrankapp-docs/docs/verifying-badges"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Verifying Badges</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#how-voting-works" class="table-of-contents__link toc-highlight">How Voting Works</a><ul><li><a href="#voting-criteria" class="table-of-contents__link toc-highlight">Voting Criteria</a></li><li><a href="#voting-scale" class="table-of-contents__link toc-highlight">Voting Scale</a></li></ul></li><li><a href="#how-to-vote" class="table-of-contents__link toc-highlight">How to Vote</a><ul><li><a href="#step-1-find-an-agent" class="table-of-contents__link toc-highlight">Step 1: Find an Agent</a></li><li><a href="#step-2-access-the-voting-interface" class="table-of-contents__link toc-highlight">Step 2: Access the Voting Interface</a></li><li><a href="#step-3-cast-your-vote" class="table-of-contents__link toc-highlight">Step 3: Cast Your Vote</a></li><li><a href="#step-4-confirm-your-vote" class="table-of-contents__link toc-highlight">Step 4: Confirm Your Vote</a></li></ul></li><li><a href="#voting-requirements" class="table-of-contents__link toc-highlight">Voting Requirements</a><ul><li><a href="#eligibility-requirements" class="table-of-contents__link toc-highlight">Eligibility Requirements</a></li><li><a href="#vote-validation" class="table-of-contents__link toc-highlight">Vote Validation</a></li></ul></li><li><a href="#voting-rewards" class="table-of-contents__link toc-highlight">Voting Rewards</a><ul><li><a href="#reputation-points" class="table-of-contents__link toc-highlight">Reputation Points</a></li><li><a href="#token-rewards-if-applicable" class="table-of-contents__link toc-highlight">Token Rewards (if applicable)</a></li></ul></li><li><a href="#best-practices-for-voting" class="table-of-contents__link toc-highlight">Best Practices for Voting</a><ul><li><a href="#be-fair-and-objective" class="table-of-contents__link toc-highlight">Be Fair and Objective</a></li><li><a href="#provide-constructive-feedback" class="table-of-contents__link toc-highlight">Provide Constructive Feedback</a></li><li><a href="#stay-informed" class="table-of-contents__link toc-highlight">Stay Informed</a></li></ul></li><li><a href="#reporting-issues" class="table-of-contents__link toc-highlight">Reporting Issues</a><ul><li><a href="#technical-issues" class="table-of-contents__link toc-highlight">Technical Issues</a></li><li><a href="#voting-manipulation" class="table-of-contents__link toc-highlight">Voting Manipulation</a></li></ul></li><li><a href="#voting-ethics" class="table-of-contents__link toc-highlight">Voting Ethics</a><ul><li><a href="#dos" class="table-of-contents__link toc-highlight">Do&#39;s</a></li><li><a href="#donts" class="table-of-contents__link toc-highlight">Don&#39;ts</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">AgentRank</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/agentrankapp-docs/">Home</a></li><li class="footer__item"><a class="footer__link-item" href="/agentrankapp-docs/launch">Launch</a></li><li class="footer__item"><a class="footer__link-item" href="/agentrankapp-docs/leaderboard">Leaderboard</a></li><li class="footer__item"><a href="https://twitter.com/AgentRank" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 BAINT-tech. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
